@@ -6,11 +6,11 @@ We proposed a partial likelihood ratio test for
 
 <!-- Prior to using R programs on this repository, please download the main R program [EGJ_USO_Library.R](https://raw.githubusercontent.com/cftang9/MSUSO/master/EGJ_USO_Library.r).  -->
 
-## Part 1. Reproducing simulation size and power results in the manuscript. 
+## Part 1. Reproducing size and power comparison results with a residual-based GOF test in the manuscript. 
 ### 
 ###
 
-## Part 2. Reproducing the comparisons of the robustness of the baseline hazards. 
+## Part 2. Reproducing the accessments of the robustness of the GOF tests with baseline hazards. 
 ### 
 ### 
 
@@ -18,7 +18,7 @@ We proposed a partial likelihood ratio test for
 
 ### Further discussion of censoring times: ties and high-censoring rates
 
-### Further discussion of further discussion of the partial linear models. 
+### Further discussion of further discussion of the partial linear models
 
 ## Reference: 
 1. 
