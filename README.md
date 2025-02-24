@@ -11,11 +11,11 @@ We proposed a partial likelihood ratio test for
 ## Part 2. Robustness of the 
 
 
-# In additional to 
+## Beyond the paper
 
-## Further discussion of censoring times: ties and high-censoring rates
+### Further discussion of censoring times: ties and high-censoring rates
 
-## Further discussion of further discussion of the partial linear models. 
+### Further discussion of further discussion of the partial linear models. 
 
 ## Reference: 
 1. 
