@@ -11,7 +11,7 @@ In the end, some extensions and discussions beyond the paper were provided.
 <!-- Prior to using R programs on this repository, please download the main R program [EGJ_USO_Library.R](https://raw.githubusercontent.com/cftang9/MSUSO/master/EGJ_USO_Library.r).  -->
 
 ## Part 1. Reproducing size and power comparison results with a residual-based GOF test in the manuscript. 
-
+[Directly from Baseline](Baseline Exp(1)/Sim_Uni_0Z_n50.R)
 
 
 ## Part 2. Reproducing the assessments of the robustness of the GOF tests with baseline hazards. 
