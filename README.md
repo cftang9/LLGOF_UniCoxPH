@@ -11,7 +11,7 @@ We proposed a partial likelihood ratio test for
 ## Part 2. Robustness of the 
 
 
-## Beyond the paper
+## Beyond this work: 
 
 ### Further discussion of censoring times: ties and high-censoring rates
 
