@@ -6,10 +6,13 @@ We proposed a partial likelihood ratio test for
 
 <!-- Prior to using R programs on this repository, please download the main R program [EGJ_USO_Library.R](https://raw.githubusercontent.com/cftang9/MSUSO/master/EGJ_USO_Library.r).  -->
 
-## Part 1. Reproducing simulation results in the manuscript
+## Part 1. Reproducing simulation size and power results in the manuscript. 
+### 
+###
 
-## Part 2. Robustness of the 
-
+## Part 2. Reproducing the comparisons of the robustness of the baseline hazards. 
+### 
+### 
 
 ## Beyond this work: 
 
