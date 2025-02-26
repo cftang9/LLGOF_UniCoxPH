@@ -13,6 +13,10 @@ In the end, some extensions and discussions beyond the paper were provided.
 ## Part 1. Reproducing size and power comparison results with a residual-based GOF test in the manuscript. 
 [Directly from Baseline](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_0Z_n50.R)
 
+$$
+  \lambda_i(t) = 
+$$
+
 
 ## Part 2. Reproducing the assessments of the robustness of the GOF tests with baseline hazards. 
 
