@@ -55,8 +55,7 @@ When the baseline hazard is from $G(2,0.5)$, we have
 $\beta = $
 [0](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_0Z_n50_Gompertz.R), 
 [1](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_1Z_n50_Gompertz.R),  
-[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_5Z_n50_Gompertz.R) for sizes comparisons and  
-$g(Z) = $ 
+[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_5Z_n50_Gompertz.R) for sizes comparisons and $g(Z) = $ 
 [Z^2](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_Z2_n50_Gompertz.R), 
 [exp(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_eZ_n50_Gompertz.R), 
 [log(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_lZ_n50_Gompertz.R), 
