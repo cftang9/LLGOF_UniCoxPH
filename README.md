@@ -18,7 +18,7 @@ In the end, some extensions and discussions beyond the paper were provided.
 
 ## Part 1. Reproducing size and power comparison results with a residual-based GOF test in the manuscript. 
 
-Under Cox PH model
+Under the Cox PH model, we choose the baseline from the Exponential distribution with mean $1$. 
 
 [Baseline from Exp(1)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_0Z_n50.R)
 
