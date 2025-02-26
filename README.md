@@ -1,10 +1,10 @@
 # A Goodness-of-fit Test for Log-Linearity in Cox Proportional Hazard Model under Monotonic Covariate Effects #
 
 This repository contains  ```R``` codes for the article “A Goodness-of-fit Test for Log-Linearity in Cox Proportional Hazard Model under Monotonic Covariate Effects.” 
-We proposed a goodness-of-fit (GOF) test for the log-linearity versus monotonic effects on the hazard function in the Cox PH Model. 
+We proposed a goodness-of-fit (GOF) test for the log-linearity versus monotonic effects on the hazard function in the Cox PH Model: 
 
 $$
-  H_0: \lambda_i(t) = \lambda_0(t) \exp\{Z_i \beta\} ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp\{g(Z_i)\}
+  H_0: \lambda_i(t) = \lambda_0(t) \exp\{Z_i \beta\} ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp\{g(Z_i)\}. 
 $$
 
 Deviation of the partial likelihood ratios suggests exploring non-log-linear but monotonic effects, such as log-concave and log-convex, on the hazard rate. 
