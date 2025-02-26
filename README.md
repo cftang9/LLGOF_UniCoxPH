@@ -20,8 +20,10 @@ In the end, some extensions and discussions beyond the paper were provided.
 
 Under the Cox PH model, 
 We generate random samples from the Cox PH models, using the baseline hazard from the Exponential distribution with a mean of $1$, denoted by Exp(1). 
-Under $H_0$, we consider 
-[$$beta=0$$](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_0Z_n50.R)
+Under $H_0$, we consider $\beta = $
+[0](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_0Z_n50.R), 
+[1](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_1Z_n50.R), and 
+[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_5Z_n50.R), 
 
 
 
