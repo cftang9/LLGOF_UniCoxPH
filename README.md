@@ -20,7 +20,9 @@ In the end, some extensions and discussions beyond the paper were provided.
 
 
 
-![BHF.png](https://github.com/user-attachments/files/18977590/BHF.png)
+![BHF.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
+
+
 <!--
 ## Beyond this work: 
 
