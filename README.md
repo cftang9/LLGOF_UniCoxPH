@@ -38,18 +38,19 @@ Under $H_1$, we consider $g(Z) = $
 
 [<img src="https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png" width="600" />](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
 
-Similarly, when the baseline is from 
+Similarly, we consider baseline hazards from the Gompertz distributions, denoted by $G(\eta,b)$ with shape and scale parameters, $\eta$ and $b$, respectively. Two Gompertz distributions, $G(1,2)$ and $G(2,0.5)$, as shown in the figure above, are implemented to assess robustness. 
 
-Under $H_0$, we consider $\beta = $
+When the baseline hazard is from $G(1,2)$, the ```R``` codes for evaluating the sizes ( 
+$\beta = $
 [0](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_0Z_n50_Gompertz.R), 
 [1](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_1Z_n50_Gompertz.R), and 
-[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_5Z_n50_Gompertz.R).
-Under $H_1$, we consider $g(Z) = $ 
+[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_5Z_n50_Gompertz.R)
+) and powers ($g(Z) = $ 
 [Z^2](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_Z2_n50_Gompertz.R), 
 [exp(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_eZ_n50_Gompertz.R), 
 [log(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_lZ_n50_Gompertz.R), 
 [6(Z)^(1/2)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_lZ_n50_Gompertz.R), and 
-[sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_lZ_n50_Gompertz.R), with sample sizes $n=50, 100, 200, 500$ and $1000$. 
+[sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_lZ_n50_Gompertz.R)) are provided. 
 
 
 Under $H_0$, we consider $\beta = $
