@@ -4,7 +4,7 @@ This repository contains  ```R``` codes for the article “A Goodness-of-fit Tes
 We proposed a goodness-of-fit (GOF) test for the log-linearity versus monotonic effects on the hazard function in the Cox PH Model: 
 
 $$
-  H_0: \lambda_i(t) = \lambda_0(t) \exp(Z_i \beta) ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp'\{g(Z_i)`\}, 
+  H_0: \lambda_i(t) = \lambda_0(t) \exp(Z_i \beta) ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp`\{g(Z_i)\}`, 
 $$
 
 where $g$ is a monotonic function. 
