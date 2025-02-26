@@ -16,10 +16,6 @@ In the end, some extensions and discussions beyond the paper were provided.
 
 ## Part 2. Reproducing the assessments of the robustness of the GOF tests with baseline hazards. 
 
-[BHF.pdf](https://github.com/user-attachments/files/18977590/BHF.pdf)
-
-
-
 ![BHF.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
 
 
