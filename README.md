@@ -4,8 +4,9 @@ This repository contains  ```R``` codes for the article “A Goodness-of-fit Tes
 We proposed a goodness-of-fit (GOF) test for the log-linearity versus monotonic effects on the hazard function in the Cox PH Model: 
 
 $$
-  H_0: \lambda_i(t) = \lambda_0(t) \exp(Z_i \beta) ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp(g(Z_i)). 
+  H_0: \lambda_i(t) = \lambda_0(t) \exp(Z_i \beta) ~~ \mbox{versus} ~~ H_1: \lambda_i(t) = \lambda_0(t) \exp(g(Z_i)), 
 $$
+where $g$ is a monotonic function. 
 
 Deviation of the partial likelihood ratios suggests exploring non-log-linear but monotonic effects, such as log-concave and log-convex, on the hazard rate. 
 The critical values were determined by Monte Carlo random samples from the ordinary Cox Model with linear interpolated Breslow estimation of the baseline hazard function. We implemented two ```R``` functions, [StepFun_uniquify.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/StepFun_uniquify.R) and [Linear Inverse.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Linear_Inverse.R), to interpolate between consecutive jumps in the Breslow cumulated baseline estimation and then apply the inverse methods when generating Monte Carlo samples). 
