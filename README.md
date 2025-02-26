@@ -19,18 +19,16 @@ In the end, some extensions and discussions beyond the paper were provided.
 ## Part 1. Reproducing size and power comparison results with a residual-based GOF test in the manuscript. 
 [Baseline from Exp(1)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline~Exp(1)/Sim_Uni_0Z_n50.R)
 
-[Baseline from Gompertz(1,2) distribution](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_0Z_n50_Gompertz.R)
-
-[Baseline from Gompertz(2,0.5) distribution](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_0Z_n50_Gompertz.R)
-
-$$
-  \lambda_i(t) = \lambda_0(t) \exp\{g(Z_i)\}
-$$
-
 
 ## Part 2. Reproducing the assessments of the robustness of the GOF tests with baseline hazards. 
 
 [<img src="https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png" width="600" />](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
+
+
+[Baseline from Gompertz(1,2) distribution](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(1%2C2)/Sim_Uni_0Z_n50_Gompertz.R)
+
+[Baseline from Gompertz(2,0.5) distribution](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_0Z_n50_Gompertz.R)
+
 
 <!-- ![BHF.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png) -->
 
