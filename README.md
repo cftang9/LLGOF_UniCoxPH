@@ -29,9 +29,8 @@ Under $H_1$, we consider $g(Z) = $
 [exp(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_eZ_n50.R), 
 [log(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), 
 [6(Z)^(1/2)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), and 
-[sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), 
+[sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), with sample sizes $n=50, 100, 200, 500$ and $1000$. 
 
-with sample size $n=50, 100, 200, 500$ and $1000$. 
 
 
 
