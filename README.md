@@ -8,10 +8,14 @@ $$
 $$
 
 where $g$ is a monotonic function. 
-Our test statistic is based on the difference of log partial likelihoods
+Our test statistic is based on the difference of log partial likelihoods 
+
 $$
-  T_n = l_{Iso}(\Phi) - l_{Cox}(\hat{\beta}_+). 
+  T_n = l_{Iso} - l_{Cox}
 $$
+
+where $l_{Cox}$ is obtained from the traditional Cox PH model while $l_{Iso}$ obtained from the isotonic Cox PH model. 
+
 Deviation of the log partial likelihoods suggests exploring non-log-linear but monotonic effects, such as log-concave and log-convex, on the hazard rate. 
 The critical values were determined by Monte Carlo random samples from the ordinary Cox Model with linear interpolated Breslow estimation of the baseline hazard function. We implemented two ```R``` functions, [StepFun_uniquify.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/StepFun_uniquify.R) and [Linear Inverse.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Linear_Inverse.R), to interpolate between consecutive jumps in the Breslow cumulated baseline estimation and then apply the inverse methods when generating Monte Carlo samples). 
 In the end, some extensions and discussions beyond the paper were provided. 
