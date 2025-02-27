@@ -8,7 +8,11 @@ $$
 $$
 
 where $g$ is a monotonic function. 
-Deviation of the partial likelihood ratios suggests exploring non-log-linear but monotonic effects, such as log-concave and log-convex, on the hazard rate. 
+Our test statistic is based on the difference of log partial likelihoods
+$$
+  T_n = l_{Iso}(\Phi) - l_{Cox}(\hat{\beta}_+). 
+$$
+Deviation of the log partial likelihoods suggests exploring non-log-linear but monotonic effects, such as log-concave and log-convex, on the hazard rate. 
 The critical values were determined by Monte Carlo random samples from the ordinary Cox Model with linear interpolated Breslow estimation of the baseline hazard function. We implemented two ```R``` functions, [StepFun_uniquify.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/StepFun_uniquify.R) and [Linear Inverse.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Linear_Inverse.R), to interpolate between consecutive jumps in the Breslow cumulated baseline estimation and then apply the inverse methods when generating Monte Carlo samples). 
 In the end, some extensions and discussions beyond the paper were provided. 
 <!--Lastly, we discuss the proposed GOF tests beyond the GOF tests. -->
