@@ -8,7 +8,7 @@ $$
 $$
 
 where $g$ is a monotonic function. 
-Our test statistic is based on the difference of log partial likelihoods 
+Our test statistic is based on the difference of maximized log partial likelihoods:  
 
 $$
   T_n = l_{Iso} - l_{Cox}
