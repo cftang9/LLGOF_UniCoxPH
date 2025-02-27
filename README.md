@@ -23,7 +23,9 @@ We generate random samples from the Cox PH models, using the baseline hazard fro
 Under $H_0$, we consider $\beta = $
 [0](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_0Z_n50.R), 
 [1](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_1Z_n50.R), and 
-[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_5Z_n50.R).
+[5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_5Z_n50.R). 
+A martingale resigule appraoch 
+[Test](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_0Z_Martingale.R)
 Under $H_1$, we consider $g(Z) = $ 
 [Z^2](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_Z2_n50.R), 
 [exp(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_eZ_n50.R), 
