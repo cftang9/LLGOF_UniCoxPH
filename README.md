@@ -77,10 +77,19 @@ $\beta = $
 [6(Z)^(1/2)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_lZ_n50_Gompertz.R), and 
 [sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_lZ_n50_Gompertz.R)) for power comparisons. 
 
-
 ## Part 3. Illustration on Real Data. 
 
+### German breast cancer study 
 
+https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/German%20Breast%20Cancer%20Data.R
+
+![GBCD.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/GBCD.png)
+
+### NCCTG lung cancer data
+
+https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/NCCTG%20Lung%20Cancer%20Data.R
+
+![NCCTG.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/NCCTG.png)
 
 <!-- ![BHF.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png) -->
 
@@ -93,7 +102,7 @@ $\beta = $
 ### Further discussion of further discussion of the partial linear models
 -->
 
-## Reference: 
+## References: 
 1. Chung, Y., Ivanova, A., Hudgens, M. G., and Fine, J. P. (2018), Partial likelihood estimation of isotonic proportional hazards models, *Biometrika* 105, 133-148. 
 2. Cox, D. R. (1975), Regression Models and Life-Tables, *Journal of the Royal Statistical Society. Series B (Methodological)* 34, 187-220. 
 3. Xu, G., Sen, B., and Ying, Z. (2014),  Bootstrapping a change-point Cox model for survival data. *Electronic Journal of Statistics* 8, 1345. 
