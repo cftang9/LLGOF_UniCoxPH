@@ -53,7 +53,8 @@ and $H_1: g(Z)$ =
 
 ## Part 2. Reproducing the assessments of the robustness of the GOF tests with baseline hazards. 
 
-[<img src="https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png" width="600" />](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
+<!--[<img src="https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png" width="600" />](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)-->
+![BHF.png](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/BHF.png)
 
 Similarly, we consider baseline hazards from the Gompertz distributions, denoted by $G(\eta,b)$ with shape and scale parameters, $\eta$ and $b$, respectively. Two Gompertz distributions, $G(1,2)$ and $G(2,0.5)$, as shown in the figure above, are implemented to assess robustness. 
 
