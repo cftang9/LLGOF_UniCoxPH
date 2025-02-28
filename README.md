@@ -16,7 +16,7 @@ $$
 
 where $l_{Cox}$ is obtained from the traditional Cox PH model while $l_{Iso}$ obtained from the isotonic Cox PH model. 
 Deviation of the log partial likelihoods suggests exploring non-log-linear but monotonic effects on the hazard rates, such as monotonic log-concave and log-convex effects in $Z$. 
-The critical values were determined by Monte Carlo random samples from the ordinary Cox Model with linear interpolated Breslow estimation of the baseline hazard function. We implemented two ```R``` functions, [StepFun_uniquify.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/StepFun_uniquify.R) and [Linear Inverse.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Linear_Inverse.R), to interpolate between consecutive jumps in the Breslow cumulated baseline estimation and then apply the inverse methods when generating Monte Carlo samples). 
+The critical values were determined by bootstrapped random samples from the ordinary Cox Model with linearly interpolated Breslow cumulated baseline estimation and conditional censorings. We implemented two ```R``` functions, [StepFun_uniquify.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/StepFun_uniquify.R) and [Linear Inverse.R](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Linear_Inverse.R), to interpolate between consecutive jumps in the Breslow cumulated baseline estimation and then apply the inverse methods when generating Monte Carlo samples). 
 In the end, some extensions and discussions beyond the paper were provided. 
 <!--Lastly, we discuss the proposed GOF tests beyond the GOF tests. -->
 <!-- This article has been submitted for publication. -->
@@ -93,7 +93,7 @@ $\beta = $
 -->
 
 ## Reference: 
-1. 
-2. 
-3. 
+1. Chung, Y., Ivanova, A., Hudgens, M. G., and Fine, J. P. (2018), Partial likelihood estimation of isotonic proportional hazards models, *Biometrika* 105, 133-148. 
+2. Cox, D. R. (1975), Regression Models and Life-Tables, *Journal of the Royal Statistical Society. Series B (Methodological)* 34, 187-220. 
+3. Xu, G., Sen, B., and Ying, Z. (2014),  Bootstrapping a change-point Cox model for survival data. *Electronic Journal of Statistics* 8, 1345. 
 
