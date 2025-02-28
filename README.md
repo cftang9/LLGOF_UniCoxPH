@@ -37,7 +37,7 @@ Under $H_1$, we consider $g(Z) = $
 [log(Z)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), 
 [6Z^(1/2)](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), and 
 [sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_lZ_n50.R), with sample sizes $n=50, 100, 200, 500$ and $1000$. 
-Accordingly, the supreme of martingale residuals test for log-linearity was coded in the following links: 
+Accordingly, the supreme martingale residuals test for log-linearity was coded in the following links: 
 $H_0: \beta =$ [0](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_0Z_Martingale.R)
 [1](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_1Z_Martingale.R)
 [5](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20Exp(1)/Sim_Uni_5Z_Martingale.R)
@@ -78,6 +78,7 @@ $\beta = $
 [sin(Z pi)/4](https://github.com/cftang9/LLGOF_UniCoxPH/blob/main/Baseline%20G(2%2C0.5)/Sim_Uni_lZ_n50_Gompertz.R)) for power comparisons. 
 
 
+## Part 3. Illustration on Real Data. 
 
 
 
